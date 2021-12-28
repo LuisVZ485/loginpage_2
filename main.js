@@ -1,4 +1,4 @@
-'use strict';
+
 const nombre = document.getElementById("name");
 const email = document.getElementById("email");
 const passw = document.getElementById("password");
@@ -19,7 +19,7 @@ form.addEventListener("submit", e=>{
         warnings += `El email no es valido <br>`
         entrar = true
     }
-    if(pass.value.length < 8){
+    if(passw.value.length < 8){
         warnings += `La contraseña no es valida <br>`
         entrar = true
     }
