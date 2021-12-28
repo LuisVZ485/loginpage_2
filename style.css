@@ -100,6 +100,14 @@ input:focus~.barra::before{
     width: 100%;
 }
 
+.warnings{
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    padding-top: 20px;
+    color: #B06AB3;
+}
+
 
 button{
     font-family: 'roboto';
